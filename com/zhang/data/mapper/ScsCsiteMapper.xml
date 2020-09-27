@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhang.data.mapper.ScsCsiteMapper">
+    <sql id="tableName">
+        scs_csite
+    </sql>
+
+    <sql id="baseColumn">
+        id,idNumber,dataNumber,name,bagsBH,similarity,minSimilarity,faceAngle,threshold,province,city,sim,district,status,versionNumber,rangeType,requestCount,qrCode,attendanceWay,authKey,password,contractNo,projectName,address,area,projectCost,unitName,creditCode,projectContacts,projectTel,enpName,buildType,enpContacts,enpTel,creator,createTime,teamView,monitorType,onlineTime,isMaster,create_time,appid
+    </sql>
+
+</mapper>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhang.data.mapper.BusCiteInfoMapper">
+    <sql id="tableName">
+        bus_cite_info
+    </sql>
+
+    <sql id="baseColumn">
+        id,cite_status,cite_name,cite_id,cite_address,cite_type,contract_record,contract_date,construction_permit,contract_amount,construction_area,location,construction_unit,construction_code,construction_id,implement_unit,implement_code,implement_id,supervise_unit,supervise_code,supervise_id,worker_salary_account,id_status,id_installation_date,confess_date,dust_status,dust_installation_date,dust_confess_date,danger_status,danger_installation_date,danger_confess_date,ex1_status,ex1_installation_date,ex1_confess_date,ex2_status,ex2_installation_date,ex2_confess_date,createTime,updateTime,dy_id
+    </sql>
+
+</mapper>
