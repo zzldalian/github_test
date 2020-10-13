@@ -1,2 +1,2 @@
 # github_test
-自己联系git使用
+自己练习git使用
